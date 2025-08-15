@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Basics -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Unblocked Games 76 – Fun Notes & Lessons Online</title>
+  <meta name="description" content="Unblocked Games 76, safe, and colorful hub for children to explore study notes and bite-size lessons. Playful design, teacher-approved content, and mobile-friendly.">
+  <meta name="keywords" content="kids learning, study notes for kids, free lessons, educational games, child friendly study, school resources">
+  <link rel="canonical" href="https://tell-me-more-games.github.io/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Smart Kids Learn – Fun Notes & Lessons Online">
+  <meta property="og:description" content="A colorful, safe landing page that guides children to study notes and quick lessons.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tell-me-more-games.github.io/">
+  <meta property="og:image" content="https://tell-me-more-games.github.io/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Smart Kids Learn – Fun Notes & Lessons Online">
+  <meta name="twitter:description" content="Explore playful study notes and quick lessons right from your device.">
+  <meta name="twitter:image" content="https://tell-me-more-games.github.io/og-image.jpg">
+
+  <!-- PWA/Icons (optional placeholders) -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#6C63FF">
+
+  <!-- JSON-LD: WebSite + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Smart Kids Learn",
+    "url":"https://tell-me-more-games.github.io/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://tell-me-more-games.github.io/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Is this site kid-friendly?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our design is simple, bright, and distraction-free, linking to curated learning resources."}},
+      {"@type":"Question","name":"Can I use it on phones and tablets?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. The page is fully responsive and touch-friendly."}},
+      {"@type":"Question","name":"Is it free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Visit the links on the page to access free notes and lessons."}}
+    ]
+  }
+  </script>
+
+  <!-- Fonts (system stack for performance) and Styles -->
+  <style>
+    :root{
+      --bg:#ffffff;
+      --fg:#1a1a1a;
+      --muted:#5b5b73;
+      --brand:#6C63FF;
+      --brand-2:#00C2FF;
+      --brand-3:#FFB703;
+      --brand-4:#FF4D6D;
+      --card:#f7f7ff;
+      --ring: rgba(108, 99, 255, 0.35);
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      color:var(--fg);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(0,194,255,.15), transparent 60%),
+        radial-gradient(1000px 600px at 110% 10%, rgba(255,183,3,.14), transparent 55%),
+        radial-gradient(900px 500px at 50% 120%, rgba(108,99,255,.12), transparent 60%),
+        var(--bg);
+      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* Layout */
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    header{
+      position:sticky;top:0;background:rgba(255,255,255,.8);
+      backdrop-filter:saturate(120%) blur(8px); border-bottom:1px solid #eee; z-index:50;
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{
+      display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px;
+    }
+    .brand-logo{
+      width:40px;height:40px;border-radius:50%;
+      background: conic-gradient(from 90deg,var(--brand),var(--brand-2),var(--brand-3),var(--brand-4),var(--brand));
+      box-shadow:0 6px 18px rgba(0,0,0,.15);
+    }
+    .nav a.btn{
+      display:inline-block;border-radius:999px;padding:10px 16px;font-weight:700;background:var(--fg);color:#fff
+    }
+    .nav a.btn:hover{opacity:.9;text-decoration:none}
+
+    /* Hero */
+    .hero{padding:64px 0 28px}
+    .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
+    .tag{display:inline-flex;align-items:center;gap:8px;background:#eef3ff;border:1px solid #dfe7ff;color:#3b3b7a;padding:6px 10px;border-radius:999px;font-weight:700}
+    h1{font-size:clamp(28px,3.2vw,46px);line-height:1.1;margin:14px 0 12px}
+    .lead{color:var(--muted);font-size:clamp(16px,2.1vw,20px)}
+    .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+    .cta{
+      display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:14px;
+      font-weight:800; border:2px solid transparent; transition:transform .06s ease, box-shadow .2s ease;
+      box-shadow:var(--shadow);
+    }
+    .cta.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2)); color:#fff}
+    .cta.secondary{background:#fff;border-color:#eee}
+    .cta:focus-visible{outline:4px solid var(--ring);outline-offset:2px}
+    .cta:hover{transform:translateY(-1px)}
+    .note{
+      background:var(--card);border:1px dashed #dfe3ff;padding:12px 14px;border-radius:12px;margin-top:16px;color:#3b3b7a
+    }
+
+    /* Feature Cards */
+    .features{padding:30px 0 8px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{
+      background:#fff;border-radius:var(--radius);border:1px solid #eee;padding:18px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+    }
+    .badge{
+      position:absolute;right:12px;top:12px;font-size:12px;padding:6px 10px;border-radius:999px;background:#fff3d6;border:1px solid #ffe19c;color:#7a5a00;font-weight:800
+    }
+    .card h3{margin:6px 0 8px;font-size:20px}
+    .card p{margin:0;color:var(--muted)}
+    .sparkles{
+      position:absolute;left:-30px;bottom:-30px;width:140px;height:140px;border-radius:50%;
+      background:radial-gradient(circle at 30% 30%,rgba(255,77,109,.25),transparent 60%),
+                 radial-gradient(circle at 70% 70%,rgba(0,194,255,.2),transparent 55%)
+    }
+
+    /* Sections */
+    section{scroll-margin-top:90px}
+    .section-title{font-size:22px;margin:26px 0 10px}
+    .cta-bar{
+      display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;
+      background:linear-gradient(120deg,rgba(108,99,255,.14),rgba(0,194,255,.14));
+      border:1px solid #e6ebff;border-radius:16px;padding:18px;margin-top:18px
+    }
+
+    /* Footer */
+    footer{padding:36px 0 48px;color:#6a6a6a}
+    .foot-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;align-items:center}
+    .small{font-size:14px;color:#7a7a99}
+
+    /* Forms */
+    form[role="search"]{display:flex;gap:10px;align-items:center;margin-top:18px}
+    input[type="search"]{
+      width:100%;padding:12px 14px;border-radius:12px;border:1px solid #e2e2f2;background:#fff;
+      font-size:16px
+    }
+    button[type="submit"]{
+      padding:12px 16px;border-radius:12px;border:0;background:var(--brand);color:#fff;font-weight:800;box-shadow:var(--shadow)
+    }
+    button[type="submit"]:focus-visible{outline:4px solid var(--ring);outline-offset:2px}
+
+    /* Responsive */
+    @media (max-width:960px){
+      .hero-grid{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr 1fr}
+      .foot-grid{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .grid{grid-template-columns:1fr}
+      .nav a.btn{display:none}
+    }
+
+    /* Motion preferences */
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Accessibility Skip -->
+  <a href="#main" class="skip" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header role="banner" aria-label="Site header">
+    <div class="container nav" >
+      <div class="brand" aria-label="Smart Kids Learn">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <span>Smart Kids Learn</span>
+      </div>
+      <nav aria-label="Primary">
+        <a class="btn" href="#learn">Explore</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+    <section class="container hero" id="home">
+      <div class="hero-grid">
+        <div>
+          <span class="tag" aria-label="Kid-safe and teacher-friendly">✨ Kid-Safe · Teacher-Friendly</span>
+          <h1>Fun Notes & Lightning-Fast Lessons for Curious Kids</h1>
+          <p class="lead">
+            Welcome to a colorful corner of the web where learning feels like play.
+            Tap a button, pick a topic, and start exploring—no downloads, just smiles.
+          </p>
+
+          <div class="hero-cta" role="group" aria-label="Primary actions">
+            <!-- Provided URLs -->
+            <a class="cta primary" href="https://subjectnotes.website/" target="_blank" rel="noopener noreferrer" aria-label="Open Subject Notes in a new tab">
+              🎒 Visit Subject Notes
+            </a>
+            <a class="cta secondary" href="https://lesson-4.guru/" target="_blank" rel="noopener noreferrer" aria-label="Open Lesson 4 Guru in a new tab">
+              🚀 Try Quick Lessons
+            </a>
+          </div>
+
+          <p class="note" aria-live="polite">
+            Tip for parents & teachers: Bookmark these links to build a daily mini-study routine.
+          </p>
+
+          <!-- Simple on-page search (decorative) -->
+          <form role="search" aria-label="Site search" onsubmit="event.preventDefault(); alert('This demo search is decorative. Use the buttons above to start learning!');">
+            <label class="small" for="q">Search topics</label>
+            <input id="q" name="q" type="search" placeholder="e.g., fractions, oceans, grammar…" inputmode="search" aria-describedby="searchHelp">
+            <button type="submit" aria-label="Search">Search</button>
+          </form>
+          <div id="searchHelp" class="small" aria-hidden="true">Search is local to this page for now.</div>
+        </div>
+
+        <!-- Hero Illustration (lightweight inline SVG) -->
+        <div aria-hidden="true">
+          <svg viewBox="0 0 520 380" width="100%" height="auto" role="img" aria-label="Playful learning illustration">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#6C63FF"/><stop offset="100%" stop-color="#00C2FF"/>
+              </linearGradient>
+            </defs>
+            <rect x="20" y="30" rx="28" ry="28" width="300" height="200" fill="url(#g1)"/>
+            <circle cx="400" cy="80" r="40" fill="#FFB703"/>
+            <circle cx="450" cy="130" r="26" fill="#FF4D6D"/>
+            <rect x="60" y="260" rx="14" ry="14" width="180" height="22" fill="#fff"/>
+            <rect x="60" y="290" rx="14" ry="14" width="240" height="22" fill="#fff"/>
+            <circle cx="130" cy="130" r="36" fill="#fff"/>
+            <circle cx="130" cy="130" r="18" fill="#6C63FF"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="container features" id="learn" aria-label="Why kids love it">
+      <h2 class="section-title">Why Kids (and Grown-Ups) Love This</h2>
+      <div class="grid">
+        <article class="card" aria-label="Quick & friendly">
+          <span class="badge">Quick</span>
+          <div class="sparkles"></div>
+          <h3>Quick & Friendly</h3>
+          <p>Open, read, and practice in minutes. Short lessons and clean notes keep attention where it belongs.</p>
+        </article>
+        <article class="card" aria-label="Safe & simple">
+          <span class="badge">Safe</span>
+          <div class="sparkles"></div>
+          <h3>Safe & Simple</h3>
+          <p>Distraction-free design with bright visuals and large tap targets for small hands.</p>
+        </article>
+        <article class="card" aria-label="Any device">
+          <span class="badge">Mobile</span>
+          <div class="sparkles"></div>
+          <h3>Any Device</h3>
+          <p>Fully responsive layout that looks great on phones, tablets, Chromebooks, and desktops.</p>
+        </article>
+      </div>
+
+      <div class="cta-bar" role="group" aria-label="Explore resources">
+        <a class="cta primary" href="https://subjectnotes.website/" target="_blank" rel="noopener noreferrer">🎒 Go to Subject Notes</a>
+        <a class="cta secondary" href="https://lesson-4.guru/" target="_blank" rel="noopener noreferrer">🚀 Go to Quick Lessons</a>
+      </div>
+    </section>
+
+    <!-- Trust / Social Proof -->
+    <section class="container" aria-label="What teachers say">
+      <h2 class="section-title">What Teachers Say</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>“Perfect for warm-ups.”</h3>
+          <p>“I start class with a 5-minute activity from the quick lessons—students get focused fast.”</p>
+        </article>
+        <article class="card">
+          <h3>“Clear & colorful.”</h3>
+          <p>“The notes are simple enough for kids and tidy enough for parents revising at home.”</p>
+        </article>
+        <article class="card">
+          <h3>“Great on tablets.”</h3>
+          <p>“Buttons are big, pages load quickly, and everything is easy to find.”</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ (mirrors JSON-LD) -->
+    <section class="container" aria-label="FAQ">
+      <h2 class="section-title">FAQ</h2>
+      <details>
+        <summary>Is this site kid-friendly?</summary>
+        <p>Yes. We keep content focused and colorful, with simple navigation and no sign-ups.</p>
+      </details>
+      <details>
+        <summary>Can I use it on phones and tablets?</summary>
+        <p>Absolutely! The layout adapts to any screen size and supports touch interactions.</p>
+      </details>
+      <details>
+        <summary>Is it free?</summary>
+        <p>Yes. Use the buttons above to access free notes and quick lessons.</p>
+      </details>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="container" aria-label="Get started">
+      <h2 class="section-title">Ready to Start Learning?</h2>
+      <p class="small">Choose a path and jump in. Short, sweet, and super clear.</p>
+      <div class="cta-bar" role="group">
+        <a class="cta primary" href="https://subjectnotes.website/" target="_blank" rel="noopener noreferrer">🎒 Subject Notes</a>
+        <a class="cta secondary" href="https://lesson-4.guru/" target="_blank" rel="noopener noreferrer">🚀 Quick Lessons</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container foot-grid">
+      <div>
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true"></div>
+          <strong>Smart Kids Learn</strong>
+        </div>
+        <p class="small">A playful, safe landing page guiding children to high-quality notes and lightning-fast lessons.</p>
+      </div>
+      <div class="small">
+        © <span id="y"></span> Smart Kids Learn · <a href="#home">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JS: year + smooth anchor scroll -->
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    if ('scrollBehavior' in document.documentElement.style){
+      document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', e=>{
+          const id = a.getAttribute('href').slice(1);
+          const el = document.getElementById(id);
+          if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+        });
+      });
+    }
+  </script>
+</body>
+</html>
